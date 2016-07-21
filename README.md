@@ -12,7 +12,7 @@
 - [x] on/off
 - [x] emit with bubbling
 - [x] @watch
-- 
+
 
 ```jsx
 var React = require("react")
