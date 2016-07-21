@@ -1,5 +1,19 @@
 # Dont mind me - Work In Progress
 
+- [x] guid
+- [x] cursor
+- [x] has
+- [x] get
+- [x] update
+- [ ] push
+- [ ] unshift
+- [ ] pop
+- [ ] shift
+- [x] on/off
+- [x] emit
+- [x] @watch
+- 
+
 ```jsx
 var React = require("react")
 var $     = require("bc-flux")
