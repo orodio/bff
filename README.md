@@ -10,7 +10,7 @@
 - [ ] pop
 - [ ] shift
 - [x] on/off
-- [x] emit - with bubbling
+- [x] emit with bubbling
 - [x] @watch
 - 
 
