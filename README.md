@@ -1,4 +1,6 @@
-```javascript
+# Dont mind me - Work In Progress
+
+```jsx
 var React = require("react")
 var $     = require("bc-flux")
 
