@@ -12,6 +12,7 @@
 - [x] on/off
 - [x] emit with bubbling
 - [x] @watch
+- [ ] async write queue
 
 
 ```jsx
