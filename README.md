@@ -24,7 +24,7 @@ var watch = (paths) => Comp => {
     }
 
     render () {
-      return <Comp {...this.props} __tick__={ this.state.__tick__ } />
+      return <Comp {...this.props} {...this.state} />
     }
   }
 }
