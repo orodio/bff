@@ -1,0 +1,26 @@
+{
+  "name": "bc-flux",
+  "version": "0.0.1",
+  "description": "Bullclip Flavoured Flux",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape src/*_test.js src/**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/DrawboardLtd/bc-flux"
+  },
+  "keywords": [
+    "bullclip",
+    "drawboard",
+    "flux"
+  ],
+  "author": "orodio",
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tap-dot": "1.0.5",
+    "tap-spec": "4.1.1",
+    "tape": "4.6.0"
+  }
+}
