@@ -4,6 +4,8 @@
 var React = require("react")
 var $     = require("bc-flux")
 
+
+// -- Decorators --
 var watch = (paths) => Comp => {
   return class Watch extends React.Component {
     constructor () {
@@ -28,10 +30,7 @@ var watch = (paths) => Comp => {
 }
 
 
-
-
-
-
+// -- Intents --
 const create_counter = (name, count = 0) => {
   var id = $.guid()
 
@@ -62,6 +61,8 @@ const dec_counter = counter_id =>
     })
     .catch(err => console.error(err))
 
+
+// -- Components --
 @watch([
   "counters|{ counter_id }",
 ])
@@ -111,6 +112,7 @@ class Counters extends React.Component {
     if (e) e.preventDefault()
     if (this.refs.input.value === "") return
     this.setState({ processing:true })
+
     create_counter(this.refs.input.value)
       .then(() => {
         this.setState({ processing:false })
